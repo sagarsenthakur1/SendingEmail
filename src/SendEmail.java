@@ -1,5 +1,5 @@
 import java.io.File;
-
+// Send Attachment in java.
 import javax.activation.DataHandler;
 import javax.activation.DataSource;
 import javax.activation.FileDataSource;
@@ -11,7 +11,7 @@ import com.email.durgesh.Email;
 public class SendEmail {
 public static void main(String[] args) {
 	try {
-		Email email = new Email("sagarsen0697@gmail.com","Hanuman@97");
+		Email email = new Email("sagarsen0697@gmail.com","******");
 		email.setFrom("sagarsen0697@gmail.com","TechSoft INDIA");
 		email.setSubject("This email is for testing..");
 		email.setContent("<h1>This is content</h1>","text/html");
