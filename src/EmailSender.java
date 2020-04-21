@@ -1,5 +1,5 @@
 import com.email.durgesh.Email;
-
+//Send Email in java using gmail id.
 public class EmailSender {
 public static void main(String[] args) {
 	try {
